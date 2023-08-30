@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F6F8FB;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CSS LOGIN */
+
+.loginTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+hr {
+    width: 100%;
+}
+
+.hr {
+
+    border-top: 1px solid #dbdbdb;
+    width:84; 
+    margin-left:8% !important; 
+    margin-right:8% !important;
+    margin: 0 0 40px 0; 
+}
+
+.LoginContainer {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.8rem;
+    margin-bottom: 3.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background: white;
+    border-radius: 15px;
+    -webkit-box-shadow: -3px -3px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: -3px -3px 10px 0px rgba(0,0,0,0.1);
+box-shadow: -3px -3px 10px 0px rgba(0,0,0,0.1);
+}
+
+.wrapperTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.wrapperLogos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.wrapperForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 0 30px;
+}
+
+
+.buttonLogin {
+    background: #2F88FF;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 40px;
+    width: 12em;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.buttonLogin:hover {
+    background: #4797ff;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 40px;
+    width: 12em;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.wrapperWallpaper img {
+    border-radius: 0 15px 15px 0;
+}
+
+/* CSS HOME */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+    border-color: #D7DADD; border-style: solid; border-width: 0 0 1px 0;
+    padding: 10px 0;
+}
+
+.logoTitleHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logoHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logoExit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.containerLogosHome {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+}
+
+.wrapperLogosIn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-self: center;
+    place-items: center;
+}
+
+.logosHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 50px;
+    border: 1px solid #D7DADD;
+    border-radius: 25px;
+}
+
+.imgLeft{
+    width: 100%;
+}
+
+.imgRight {
+    width: 100%;
+}
+
+/* CSS RESTO */
+
+.wrapperLogosRest {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+
+.logosRest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 150px;
+    padding: 20px;
+    flex-direction: column;
+    border: 1px solid #D7DADD;
+    border-radius: 25px;
+}
+
+.logosRest:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 150px;
+    padding: 20px;
+    flex-direction: column;
+    background: #DEE3EA;
+    border: 1px solid #7a7a7a;
+    border-radius: 25px;
+}
+
+.LoginTitle {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.containerFormRegistrarRest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.containerFormRegistrarCliente {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+.registrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+h1.LoginTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+.containerFormRegistrarCliente {
+    margin-top: 20px;
+  }
+  
+label {
+    display: block;
+    margin: 15px 0 5px 0;
+    font-weight: 600;
+  }
+  
+input[type="text"],
+input[type="email"], 
+input[type="tel"],
+input[type="password"],
+input[type="date"] {
+    width: 400px;
+    padding: 20px 20px;
+    background: #DEE3EA;
+    border: none;
+    width: 400px;
+  }
+
+input[type="search"]  {
+    width: 400px;
+    padding: 20px 20px;
+    background: #DEE3EA;
+    border: none;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+select {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+    background: #DEE3EA;
+    border: none;
+  }
+
+.options {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+    background: #DEE3EA;
+    border: none;
+  }
+
+  .buttonRegistrar {
+    background: #2F88FF;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 40px;
+    width: 12em;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.buttonRegistrar:hover {
+    background: #4797ff;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 40px;
+    width: 12em;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+/* CONSULTAR SERVICIOS */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.wrapperSearch {
+    position: relative;
+}
+
+.buttonSearch {
+    padding: 20px;
+    background: #DEE3EA;
+    border: none;
+}
